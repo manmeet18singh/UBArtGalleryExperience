@@ -1,2 +1,2 @@
 # UbArtGalleryExperience
-Eperience the University at Buffalo's student led art gallery in VR. Developed for Google Cardboard.
+Experience The University at Buffalo's Student Run Art Gallery in Virtual Reality. Developed for Google Cardboard.

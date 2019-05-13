@@ -55,8 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
-     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerState.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerVisualMulti.cs" />
@@ -67,27 +65,6 @@
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaEditorControllerInputProvider.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaHeadsetProvider.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaSettingsProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInfoPanel.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\HelloVR\HeadsetDemoManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\HelloVR\HelloVRManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\HelloVR\ObjectController.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\KeyboardDemo\KeyboardDelegateExample.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AutoPlayVideo.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\BoolEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\ButtonEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\FloatEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\GameObjectEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\TouchPadEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\TransformEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\Vector2Event.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\Vector3Event.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ScrubberEvents.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\SwitchVideos.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Cardboard\GvrReticlePointer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrArmModel.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrBaseArmModel.cs" />
@@ -179,7 +156,8 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\Scripts\PrefabSwitch.cs" />
+     <Compile Include="Assets\Scripts\Audio.cs" />
+     <Compile Include="Assets\Scripts\InfoDisplay.cs" />
      <Compile Include="Assets\Scripts\SphereChanger.cs" />
      <None Include="Assets\Shaders\Insideout.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
@@ -193,7 +171,6 @@
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
-     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
